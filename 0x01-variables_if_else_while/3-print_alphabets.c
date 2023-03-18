@@ -18,7 +18,7 @@ int main(void)
 			putchar(alph);
 			alph++;
 		}
-	while 
+	while
 		(ABET <= 'Z') {
 			putchar(ABET);
 			ABET++;
