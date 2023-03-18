@@ -13,7 +13,7 @@ int main(void)
 	alpha = 'a';
 	while
 		(alpha <= 'z') {
-			putchar(alpha, alpha++);
+			putchar(alpha++);
 		}
 	return (0);
 }
