@@ -3,7 +3,7 @@
 /**
  * main - ukuqala kwe program
  *
- * Buyisa: buyisa njalo u 0
+ * Return: buyisa njalo u 0
  */
 
 int main(void)
