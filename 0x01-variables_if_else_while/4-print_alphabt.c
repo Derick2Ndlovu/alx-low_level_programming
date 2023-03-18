@@ -9,19 +9,19 @@
 int main(void)
 {
 
-	char alpha;
+        char alpha;
 
-	alpha = 'a';
-	while
-		(alpha <= 'z') {
-			if (alpha == 'e')
-				alpha++;
-			else if (alpha == 'q')
-				alpha++;
-			else
-			putchar(alpha);
-			alpha++;
-		}
-	putchar('\n');
-	return (0);
+        alpha = 'a';
+        while
+                (alpha <= 'z') {
+                        if (alpha == 'e')
+                                alpha++;
+                        else if (alpha == 'q')
+                                alpha++;
+                        else
+                        putchar(alpha);
+                        alpha++;
+                }
+        putchar('\n');
+        return (0);
 }
