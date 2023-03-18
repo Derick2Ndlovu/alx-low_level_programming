@@ -9,18 +9,18 @@
 int main(void)
 {
 
-        char alpha;
+	char alphaEQ;
 
-	alpha = 'a';
+	alphaEQ = 'a';
 	while
-		(alpha <= 'z') {
-			if (alpha == 'e')
-				alpha++;
-			else if (alpha == 'q')
-				alpha++;
+		(alphaEQ <= 'z') {
+			if (alphaEQ == 'e')
+				alphaEQ++;
+			else if (alphaEQ == 'q')
+				alphaEQ++;
 			else
-			putchar(alpha);
-			alpha++;
+			putchar(alphaEQ);
+			alphaEQ++;
 		}
 	putchar('\n');
 	return (0);
