@@ -15,7 +15,6 @@ int main(void)
 		(alpha <= 'z') {
 			putchar(alpha);
 			alpha++;
-
-			}
+		}
 	return (0);
 }
