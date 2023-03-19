@@ -1,27 +1,26 @@
 #include <stdio.h>
 
 /**
- * main - the main entry of the program
+ * main - ukuqala kwe program
  *
- * Return: always 0
+ * Return: buyisa njalo u 0
  */
 
-int main (void)
+int main(void)
 {
-	char alphabetsEQ;
 
-	alphabetsEQ = 'a';
+	char alphaEQ;
+
+	alphaEQ = 'a';
 	while
-		(alphabetsEQ <= 'z') {
-			if (alphabetsEQ == 'e')
-				alphabetsEQ = +'f';
-				alphabetsEQ++;
-			else if (alphabetsEQ == 'q')
-				alphabetsEQ = +'r';
-				alphabetsEQ++;
+		(alphaEQ <= 'z') {
+			if (alphaEQ == 'e')
+				alphaEQ++;
+			else if (alphaEQ == 'q')
+				alphaEQ++;
 			else
-			putchar(alphabetsEQ);
-			alphabetsEQ++;
+			putchar(alphaEQ);
+			alphaEQ++;
 		}
 	putchar('\n');
 	return (0);
