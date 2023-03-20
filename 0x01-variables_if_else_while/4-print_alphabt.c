@@ -13,7 +13,7 @@ int main(void)
 	alphabetsEQ = 'a';
 	while
 		(alphabetsEQ <= 'z') {
-			if ((alphabetsEQ == 'e' && alphabetsEQ == 'q') && alphabetsEQ <= 'z')
+			if ((alphabetsEQ != 'e' && alphabetsEQ != 'q') && alphabetsEQ <= 'z')
 				putchar(alphabetsEQ);
 			alphabetsEQ++;
 		}
