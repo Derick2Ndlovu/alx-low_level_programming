@@ -2,7 +2,6 @@
 
 /**
  * print_most_numbers - printing most number
- * @a: integer value
  * Return: always 0
  */
 
